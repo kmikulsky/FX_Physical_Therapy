@@ -3,9 +3,22 @@
 function fxphysical_theme_support(){
     //alows wp to manage title tag
     add_theme_support( 'title-tag' );
+
 }
 
 add_action('after_setup_theme', 'fxphysical_theme_support');
+
+
+function fxphysical_menus(){
+
+    $locations = array(
+        'primary' =>"Desktop Primary Left Sidebar",
+        'footer' =>"Footer Menu Items"
+    );
+    register_nav_menus($locations);
+}
+
+add_action('init', 'fxphysical_menus');
 
 function fxphysical_register_styles(){
     $version = wp_get_theme()->get('Version');
