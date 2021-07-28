@@ -1,5 +1,12 @@
 <?php
 
+function fxphysical_theme_support(){
+    //alows wp to manage title tag
+    add_theme_support( 'title-tag' );
+}
+
+add_action('after_setup_theme', 'fxphysical_theme_support');
+
 function fxphysical_register_styles(){
     $version = wp_get_theme()->get('Version');
     //the line below commnted out isnt working so we need a workaround for the array order. this is a common issue with local host 
