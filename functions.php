@@ -4,6 +4,7 @@ function fxphysical_theme_support(){
     //alows wp to manage title tag
     add_theme_support( 'title-tag' );
     add_theme_support( 'custom-logo');
+    add_theme_support('post-thumbnails'); 
 
 }
 

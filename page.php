@@ -1,1 +1,1 @@
-//for static pages like blogs
+//this is the page.php file. It is for static pages like blogs
