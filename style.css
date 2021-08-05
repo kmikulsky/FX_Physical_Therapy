@@ -170,7 +170,7 @@ h6 {
     color: rgba(0, 0, 0, 0.6)
 }
 .logo{
-    width:78px;
+    width:132px;
 }
 .social-list a {
     width: 32px;
@@ -742,3 +742,9 @@ div.comment:first-of-type {
 }
 
 
+/* to be removed */
+ul#samplefooter li {
+    display:inline;
+    padding-right: 3%;
+    margin-top: 100%;
+  }

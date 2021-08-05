@@ -49,10 +49,6 @@
                     )
                  );
                 ?>
-
-
-
-
 				
 				<hr>
 				<ul class="social-list list-inline py-3 mx-auto">
