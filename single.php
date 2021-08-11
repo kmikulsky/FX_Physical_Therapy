@@ -1,4 +1,4 @@
-//displays single blog posts 
+
 <?php
 get_header();
 ?>
